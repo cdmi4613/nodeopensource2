@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	vertical-align: top;
+	border: none;
+}
+body {
+	line-height: 1;
+	font-family: "Open Sans", "Noto Sans KR", sans-serif;
+	font-size: 1em;
+	color: #000;
+}
+
+/* bottom */
+.bottom {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 1150px;
+}
+.bottom .news {
+	width: 740px;
+}
+.bottom .news .title {
+	position: relative;
+}
+.bottom .news .title h3 {
+	line-height: 1.5;
+	letter-spacing: -0.5px;
+	font-size: 1em;
+	font-weight: 500;
+}
+.bottom .news .title a {
+	position: absolute;
+	right: 0;
+	top: 5px;
+	font-size: 0.875em;
+}
+.bottom .news .list {
+	margin-top: 18px;
+}
+.bottom .news .list li {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 8px;
+}
+.bottom .news .list li:first-child {
+	margin-top: 0;
+}
+.bottom .news .list li a {
+	line-height: 22px;
+	letter-spacing: -0.5px;
+	font-size: 0.875em;
+	color: #333;
+}
+.bottom .news .list li span {
+	line-height: 22px;
+	font-size: 0.813em;
+	color: #333;
+}
+.bottom .link {
+	padding-left: 40px;
+	width: 390px;
+	box-sizing: border-box;
+}
+.bottom .link ul {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+.bottom .link ul li {
+	width: 50%;
+	box-sizing: border-box;
+}
+.bottom .link ul li:nth-child(1),
+.bottom .link ul li:nth-child(3) {
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.bottom .link ul li:nth-child(2),
+.bottom .link ul li:nth-child(4) {
+	border-bottom: 1px solid #ddd;
+}
+.bottom .link ul li:nth-child(5) {
+	border-right: 1px solid #ddd;
+}
+.bottom .link ul li a {
+	display: block;
+	line-height: 48px;
+	letter-spacing: -0.5px;
+	font-size: 0.875em;
+	font-weight: 500;
+	color: #091615;
+}
+.bottom .link ul li a:hover {
+	text-decoration: underline;
+	background-color: #f9f9f9;
+}
+.app_icon {
+	margin: 0 auto;
+	width: 1150px;
+}
+.app_icon ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 158px;
+}
